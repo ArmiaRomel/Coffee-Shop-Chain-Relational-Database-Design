@@ -1,8 +1,6 @@
 # Coffee Shop Chain Relational Database Design
 
 ## Project Overview
-This project involves designing and creating a relational database system for a coffee shop chain, aimed at improving operational efficiencies and supporting data-driven decisions by its executives. Using PostgreSQL and MySQL, I developed a normalized database schema encompassing essential tables, including `staff`, `sales_outlet`, `sales_transaction`, `sales_detail`, `customer`, `product` and `product_type`. This schema effectively manages various operational aspects, from tracking sales transactions and customer information to organizing product details and staff assignments across multiple systems.
-## Project Overview
 This project involves designing and creating a relational database system for a coffee shop chain, aimed at improving operational efficiencies and supporting data-driven decisions by its executives. Using PostgreSQL, I developed an Entity-Relationship Diagram (ERD) and a fully normalized database schema. To enhance data accessibility and allow for further use by other systems, I uploaded key data views to MySQL via phpMyAdmin. This schema encompasses essential tables, including `staff`, `sales_outlet`, `sales_transaction`, `sales_detail`, `customer`, `product` and `product_type`, managing aspects such as tracking sales transactions, customer information, product details, and staff assignments across multiple systems.
 
 ## Project Features
