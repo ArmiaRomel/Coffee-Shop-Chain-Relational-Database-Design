@@ -31,14 +31,14 @@ This project involves designing and creating a relational database system for a 
      - **`sales_transaction` Table**: Created a new `sales_detail` table to eliminate repeating rows where multiple products were tied to a single transaction, thus achieving 2NF.
      - **`product` Table**: Created a `product_type` table to remove redundancy in the `product_category` and `product_type` columns.
    - **Keys and Relationships**: Defined primary and foreign keys and established relationships across tables to ensure referential integrity within the database.
-   - (see ERD screenshot: ![ERD](https://github.com/user-attachments/assets/ae908188-4e8d-4c63-8e5a-36df067c2edc)).
+   - ERD screenshot: ![ERD](https://github.com/user-attachments/assets/ae908188-4e8d-4c63-8e5a-36df067c2edc)
 
 4. **Data Views and Query Optimization**:
    - Created the following views to enhance data accessibility and optimize reporting:
      - **`staff_locations_view`**: This view provides insights into the distribution of staff across locations, streamlining workforce management.
      - **`product_info_mview`**: This materialized view provides a stored snapshot of product data, optimizing reporting on product categories and types.
-       (see view query result screenshot: ![View Query Result](https://github.com/user-attachments/assets/b2d7cd6d-fc5e-416b-ba8d-8995a10695d9))
-       (see materialized view query result screenshot: ![Materialized View Query Result](https://github.com/user-attachments/assets/92802093-0a1d-4023-b481-b8efe0683782))
+       View query result screenshot: ![View Query Result](https://github.com/user-attachments/assets/b2d7cd6d-fc5e-416b-ba8d-8995a10695d9)
+       Materialized view query result screenshot: ![Materialized View Query Result](https://github.com/user-attachments/assets/92802093-0a1d-4023-b481-b8efe0683782)
 
 5. **Cross-Platform Data Export**:
    - Exported `staff_locations_view` and `product_info_mview` to CSV format:
@@ -47,4 +47,4 @@ This project involves designing and creating a relational database system for a 
    - Imported these CSVs into MySQL via phpMyAdmin for accessibility:
       - Uploaded view screenshot: ![View Uploaded to MySQL](https://github.com/user-attachments/assets/1c87a1ed-6d49-46e1-9239-d28ff02b4365).
       - Uploaded materialized view screenshot: ![Materialized View Uploaded to MySQL](https://github.com/user-attachments/assets/833ca26d-c837-476f-87e1-c1bed2fbbcb9).
-   - Additionally, uploaded `staff_locations_view` to IBM DB2 on Cloud to make the data accessible for cloud-based applications (see IBM DB2 query result screenshot: ![IBM DB2 Query Result](https://github.com/user-attachments/assets/d522b0ef-a650-4228-8d40-8c5a8f87602a)).
+   - Additionally, uploaded `staff_locations_view` to IBM DB2 on Cloud to make the data accessible for cloud-based applications ![IBM DB2 Query Result](https://github.com/user-attachments/assets/d522b0ef-a650-4228-8d40-8c5a8f87602a)
