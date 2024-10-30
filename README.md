@@ -43,6 +43,6 @@ This project involves designing and creating a relational database system for a 
       - [CSV file of staff locations view](https://github.com/user-attachments/files/17575398/staff_locations_view.csv)
       - [CSV file of product info materialized view](https://github.com/user-attachments/files/17575400/product_info_m-view.csv)
    - Imported these CSVs into MySQL via phpMyAdmin for accessibility:
-      - Uploaded view screenshot: ![View Uploaded to MySQL](https://github.com/user-attachments/assets/1c87a1ed-6d49-46e1-9239-d28ff02b4365).
-      - Uploaded materialized view screenshot: ![Materialized View Uploaded to MySQL](https://github.com/user-attachments/assets/833ca26d-c837-476f-87e1-c1bed2fbbcb9).
+      - Uploaded view screenshot: ![View Uploaded to MySQL](https://github.com/user-attachments/assets/1c87a1ed-6d49-46e1-9239-d28ff02b4365)
+      - Uploaded materialized view screenshot: ![Materialized View Uploaded to MySQL](https://github.com/user-attachments/assets/833ca26d-c837-476f-87e1-c1bed2fbbcb9)
    - Additionally, uploaded `staff_locations_view` to IBM DB2 on Cloud to make the data accessible for cloud-based applications ![IBM DB2 Query Result](https://github.com/user-attachments/assets/d522b0ef-a650-4228-8d40-8c5a8f87602a)
