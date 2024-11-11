@@ -33,10 +33,8 @@ This project involves designing and creating a relational database system for a 
 
 4. **Data Views and Query Optimization**:
    - Created the following views to enhance data accessibility and optimize reporting:
-     - **`staff_locations_view`**: This view provides insights into the distribution of staff across locations, streamlining workforce management.
-     - **`product_info_mview`**: This materialized view provides a stored snapshot of product data, optimizing reporting on product categories and types.
-       View query result screenshot: ![View Query Result](https://github.com/user-attachments/assets/b2d7cd6d-fc5e-416b-ba8d-8995a10695d9)
-       Materialized view query result screenshot: ![Materialized View Query Result](https://github.com/user-attachments/assets/92802093-0a1d-4023-b481-b8efe0683782)
+     - **`staff_locations_view`**: This view provides insights into the distribution of staff across locations, streamlining workforce management. ![View Query Result](https://github.com/user-attachments/assets/b2d7cd6d-fc5e-416b-ba8d-8995a10695d9)
+     - **`product_info_mview`**: This materialized view provides a stored snapshot of product data, optimizing reporting on product categories and types. ![Materialized View Query Result](https://github.com/user-attachments/assets/92802093-0a1d-4023-b481-b8efe0683782)
 
 5. **Cross-Platform Data Export**:
    - Exported `staff_locations_view` and `product_info_mview` to CSV format:
